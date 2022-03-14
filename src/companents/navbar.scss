@@ -1,0 +1,41 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    &__logo{
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 800;
+        color: white;
+        text-shadow: 0 0 5px red;
+    }
+    &__menu{
+        
+    }
+    .menu{
+        display:flex;
+       &__item{
+           margin:0 30px;
+           
+           list-style: none;
+      
+           &__link{
+               text-decoration: none;
+               color:rgb(51, 50, 54);
+               &--active{
+                padding: 5px;
+                border-radius: 5px;
+                background-color: rgb(119, 112, 112);
+                   color: white;
+                   text-decoration: none;
+                   box-shadow: 0 0 5px rgb(209, 91, 91);
+               }
+              
+       }
+    }
+    }
+}

@@ -1,0 +1,28 @@
+.authnavbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    &__logo{
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 800;
+        color: rgb(187, 121, 121);
+        text-shadow:  0 0 5px rgb(84, 126, 189);
+    }
+    .nav{
+        list-style: none; 
+           &__login{
+               padding: 5px;
+               border-radius: 5px;
+               background-color: rgb(231, 74, 74);
+               color: azure;
+               text-decoration: none;
+           }
+       
+    }
+}
+
